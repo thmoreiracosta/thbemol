@@ -2,7 +2,6 @@ import logo from '../../assets/img/ContaBemol-b 1.png';
 import celular from '../../assets/img/Phone-Spotlight-Desktop 1.png';
 import './style.css'
 
-
 export default function Header() {
   return (
     <div>
