@@ -10,16 +10,13 @@
 }
 
 .container-header img {
-	position: absolute;
-	width: 403.59px;
-	height: 120px;
-	left: 140px;
-	top: 40px;
-}
-
-.container-main video {
-	margin: 0px -50px;
-	max-width: 125%;
+	max-width: 405px;
+	max-height: 120px;
+	width: auto;
+	height: auto;
+	margin-top: 40px;
+	margin-left: 140px;
+	
 }
 
 .container-main {
@@ -32,7 +29,7 @@
 .container-main h1 {
 	width: 468px;
 	height: 201px;
-	,argin: 15px 0;
+	margin: 15px 0;
 	font-family: "Montserrat", sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -45,6 +42,11 @@
 	order: 0;
 	align-self: stretch;
 	flex-grow: 0;
+}
+
+.container-main video {
+	margin: 0px -50px;
+	max-width: 125%;
 }
 
 .button {
