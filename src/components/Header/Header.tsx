@@ -19,6 +19,7 @@ export default function Header() {
         </div>
         <div>
           <img src={celular} alt="smartphone" />
+          <video src="https://static.bemol.com.br/pages/bemol/landing-pages/lp-contabemol/img/Gif-Spotlight-Desktop.mp4" muted loop autoPlay playsInline></video>
         </div>
       </main>
     </div>
