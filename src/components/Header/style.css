@@ -71,6 +71,12 @@
 	color: #1d2f8a;
 }
 
+.button:hover {
+	background-color: #4864c0;
+	color: #fff;
+	transition: 300ms ease-in-out;
+}
+
 .container-main p {
 	width: 468px;
 	height: 66px;

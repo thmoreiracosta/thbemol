@@ -1,9 +1,10 @@
 import pstar from '../../assets/img/PontosBonus 1.svg'
 import pstars from '../../assets/img/Estrelas.png'
+import './style.css'
 
 export default function SectionThree() {
   return (
-    <div>
+    <div className='container-section-pontos-1'>
       <h2>Simulador de Bônus Bemol</h2>
       <div>
         <div>
@@ -38,14 +39,14 @@ export default function SectionThree() {
         </div>
       </div>
 
-      <div>
-        <h3>Descubra como é fácil simplificar sua vida financeira.</h3>
-        <div>
-          <a href="https://www.bemol.com.br/contabemol" target="_new">
+      <div className="container-resumo">
+        <h2>Descubra como é fácil simplificar sua vida financeira.</h2>
+        <div className="container-button">
+          <a className="btn-button-1" href="https://www.bemol.com.br/contabemol" target="_new">
             Abra sua conta Bemol
           </a>
-          <a href="https://www.bemol.com.br/faq-contabemol" target="_new">
-            Perguntas Frequentes
+          <a className="btn-button-2" href="https://www.bemol.com.br/faq-contabemol" target="_new">
+            Perguntas frequentes
           </a>
         </div>
       </div>

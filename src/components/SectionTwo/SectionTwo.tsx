@@ -2,16 +2,17 @@ import star from '../../assets/img/Estrela 1.svg'
 import starPontos from '../../assets/img/PontosBonus 1.svg'
 import grafic from '../../assets/img/GifJornada 1.svg'
 import smart from '../../assets/img/TelaPontosBonus 1.svg'
+import './style.css'
 
 export default function SectionTwo() {
   return (
     <div>
-      <div>
-        <div>
+      <div className='container-section-star-1'>
+        <div className='star-container-1'>
           <img src={star} alt="Estrelinha bemol pontos" />
-          <p>
+          <h2>
             Acumular muitos <span>pontos de bônus</span> é oportunidade
-          </p>
+          </h2>
         </div>
 
         <div>
@@ -21,9 +22,9 @@ export default function SectionTwo() {
               dias.
             </p>
           </div>
-          <div>
+          <div className="container-pontos-valores">
             <p>
-              Ao depositar seus primeiros <span>R$ 20</span> você acumula{' '}
+              Ao depositar seus primeiros <strong>R$ 20</strong> você acumula{' '}
               <span>1 ponto</span> de bônus após 24h.
             </p>
             <p>
@@ -37,7 +38,10 @@ export default function SectionTwo() {
           </div>
         </div>
       </div>
-      <div>
+
+
+
+      <div className='container-section-star-2'>
         <div>
           <div>
             <p>
