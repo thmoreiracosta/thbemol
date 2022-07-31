@@ -21,7 +21,7 @@
 
 
 
-![Imagem site](./src/assets/img/be_dev.png)
+![Imagem site](./src/assets/img/be_dev_1.png)
 
 
 
