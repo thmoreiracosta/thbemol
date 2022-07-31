@@ -1,4 +1,4 @@
-# ThBemol 🎦
+# ThBemol 🏦
 ## Clone plataforma da famosa Bemol simulando a página para abertura de conta e aquisição de pontos. 
 
 - Deploy: Em breve
